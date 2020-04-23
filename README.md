@@ -57,6 +57,13 @@ cd fprime
 pip install Fw/Python Gds/
 ```
 
+## Reference Application
+
+NASA has provided a reference application that can be ran on the Raspberry Pi. The intentions of this application was to help people get familiar with F' tools and terminology.
+
+## Math Component
+
+This tutorial goes through the full development process of an F´ application while letting users see how F' components communicate with each other and how they run. This will create two components. The first components will request the result of a math problem. The second component will do the math and comupte the answer. This does not actually need embedded devices or hardware. Instead, it runs only off of the user's .nix system (Linux, MacOs, Windows, BSD). Make sure to complete the reference application tutorial above because that application acts as a host for the components.
 
 
 ## Licenses and Copyrights
