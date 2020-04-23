@@ -62,6 +62,8 @@ pip install Fw/Python Gds/
 ## Licenses and Copyrights
 
 **PYNQ** License: [BSD 3 Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
+
 **Xilinx Embedded Software** License: [Multiple License File](https://github.com/Xilinx/embeddedsw/blob/master/license.txt)
+
 **Digilent IP** License: [MIT License](https://github.com/Xilinx/PYNQ/blob/master/THIRD_PARTY_LIC) 
 
