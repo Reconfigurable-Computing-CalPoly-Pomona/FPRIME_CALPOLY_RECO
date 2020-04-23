@@ -67,3 +67,6 @@ pip install Fw/Python Gds/
 
 **Digilent IP** License: [MIT License](https://github.com/Xilinx/PYNQ/blob/master/THIRD_PARTY_LIC) 
 
+Copyright (c) 2009-2019, California Institute of Technology ("Caltech"). U.S. Government sponsorship acknowledged.
+
+All rights reserved.
