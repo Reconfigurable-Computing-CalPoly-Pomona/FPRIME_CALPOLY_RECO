@@ -1,0 +1,65 @@
+This following guide was written based on NASA Math Component tutorial found on their Github
+
+2.1.1 MathOpPort
+    - create a directory called MathPorts in the /Ref directory
+        cd fprime/Ref
+        mkdir MathPorts
+    - create a XML file in the /MathPorts directory and follow the code on NASA github
+        vim MathOpPortAi.xml
+    - create a CMake file in the /MathPorts directory according to NASA tutorial guide
+        vim CMakeLists.txt
+    - modify the CMake file in the /Ref directory according to NASA tutorial guide
+        cd fprime/Refd
+        vim CMakeLists.txt
+    - when done, due to a bug you must purge in the /Ref directory and regenerate before building
+        cd fprime/Ref
+        fprime-util purge
+        cd fprime 
+        fprime-util generate
+        cd fprime/Ref
+        fprime-util generate
+        cd fprime/MathPorts
+        fprime-util build
+
+
+- need to run "fprime-util build" in the following directory:
+    MathPorts
+    Ref
+    MathSender
+
+- unit test done in MathSender directory
+- follow instructions
+
+- create main.cpp under test/ut with code from github
+- modify tester.hpp file (code on github)
+- modify tester.cpp file (code on github)
+-  you gotta rebuild fprime/ref every time you do the implementaiton stubs
+    purge in ref
+    gen in fprime then ref
+    build mathports, ref, mathsender,
+    build-ut in mathsender
+
+
+- fprime-gds -d fprime/Ref                          //run this command under /fprime directory in the virtual env
+
+Scripts for BenchMarking
+    cd /fprime
+    vim CPUBenchmark.sh
+        #!/bin/bash
+        #Script to run and output CPU utilziation
+
+        echo "Starting CPU Bench Mark"
+        sar 1 30 >> CPU.out
+        echo "CPU Bench Mark Done"
+        #end
+    vim Benchmark.sh
+        #!/bin/bash
+        CPU="bash CPUBenchmark.sh"
+
+        $CPU &
+
+        fprime-gds -d ./Ref
+        #end
+    chmod u+x CPUBenchmark.sh
+    chmod u+x Benchmark.sh
+    ./Benchmark.sh                                   //run this command to run the Python script

@@ -1,0 +1,90 @@
+Installing Linux:
+    Username: pynq
+    Password: xilinx
+
+
+Prerequistes:
+    1. Currently running on WSL (Ubuntu 18.04 LTS) and Xilinx Pynq Image
+    2. CMake
+        Installed through terminal using the following commands:
+            $ wget https://github.com/Kitware/CMake/releases/download/v3.16.4/cmake-3.16.4.tar.gz       //download file
+            $ tar -zxvf cmake-3.16.4.tar.gz                                                             //extract file
+            $ cd cmake-3.16.4                                                                           //cd into extracted file
+            ./bootstrap                                                                                 //command to run and install cmake
+            $ make                                                                                      //after CMake has bootstrapped
+                (Note: might need to run "sudo apt install make" first)
+            $ sudo make install                                                                         //install
+            $ cmake --version                                                                           //double check if successfully installed
+    3. GCC Compiler
+        Installed through terminal using the following commands
+            $ sudo apt update                                                                           //updating package list
+            $ sudo apt install build-essential                                                          //installing the build-essential package
+            $ sudo apt-get install manpages-dev                                                         //install manual pages for using GNU/Linux for development
+            $ gcc --version                                                                             //double check if successfully installed (version installed)
+            $ gcc <file_name> -o <binary_file_name>                                                     //creates a binary file in the same directory based from the textfile
+            $ ./binary_file_name                                                                        //executes binary file
+    4. python3 and pip
+        Installed through the terminal using the following commands
+            $ sudo apt install python3.6.9                                                              //install python3
+            $ sudo apt install python3-pip                                                              //install pip3 package for python3
+            $ python3 --version                                                                         //check if successfully installed and what version
+            $ pip3 --version                                                                            //check if successfully installed and what version
+    5. Python3 Virtual Environment
+        Installed through the terminal using the following commands
+            $ pip3 install venv                                                                         //install virtual environment
+            $ python3 -m venv ./fprime-venv                                                             //creates a virtual environment called fprime-venv
+    6. Installing F-Prime
+        Installed through the terminal using the following commands within the virtual environment
+            $ git clone https://github.com/nasa/fprime
+
+Setting Up F-Prime: The following was based on NASA F'Prime install.md found on their GitHub
+    1. Launch the fprime virtual env first
+            $ . ./fprime-venv/bin/activate
+        Note: 
+            After creating the virtual environment, you don't need to create it again)
+            You can just run the above command line to activate the virtual environment
+            Use "deactivate" if you want to leave the virtual environment
+    2. Installing F-Prime
+        Installed through the terminal using the following commands within the virtual environment
+            $ git clone https://github.com/nasa/fprime
+    3. Installing F' Python Packages
+            cd <path/to/fprime/checkout>
+            pip install ./Fw/Python
+            pip install ./Gds
+        Note:
+            These commands are run within the virtual env
+            If pip does not work, try using pip3
+            These commands may take a while to run and appear to be hanging, I personally left it running for a couple of hours before everything finished
+    4. Checking F-Prime Installation
+            cd Ref                                                                                      //located in Fprime folder
+            fprime-util generate
+            fprime-util build --jobs 32
+            fprime-util install --jobs 32
+
+
+Getting Started with F': The following is based on NASA F' Tutorial.md on their GitHub
+    1. Generate the Ref Application
+            cd fprime/Ref
+            fprime-util generate
+    2. Generate the F' Framework
+            cd fprime
+            fprime-util generate
+    3. Build SignalGen Component
+            cd fprime/Ref/SignalGen
+            fprime-util build
+    4. Build Ref Deployment
+            cd fprime/Ref
+            fprime-util build
+    5. Install the Ref Deployment
+            cd fprime/Ref
+            fprime-util install
+    6. Generating Implementation Stubs of SignalGen
+            cd fprime/Ref/SignalGen
+            fprime-util impl
+            fprime-util impl-ut
+    7. Building Unit Test of SignalGen
+            cd fprime/Ref/SignalGen
+            fprime-util build-ut
+            fprime-util check                                                                          //this should display the output of the unit test
+
+
