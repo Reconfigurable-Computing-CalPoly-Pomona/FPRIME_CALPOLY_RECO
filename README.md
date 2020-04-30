@@ -26,7 +26,7 @@ In order to allow for future expansion of this project as well as popularize the
 
 ### Project Reporting
 
-* [Poster]()
+* [Poster](https://github.com/Reconfigurable-Computing-CalPoly-Pomona/FPRIME_CALPOLY_RECO/blob/master/docs/FPrime%20Poster.docx?raw=true)
 * [Powerpoint]()
 * [Presentation]()
 
