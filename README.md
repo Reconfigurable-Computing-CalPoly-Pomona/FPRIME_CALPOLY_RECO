@@ -27,8 +27,8 @@ In order to allow for future expansion of this project as well as popularize the
 ### Project Reporting
 
 * [Poster](https://github.com/Reconfigurable-Computing-CalPoly-Pomona/FPRIME_CALPOLY_RECO/blob/master/docs/FPrime%20Poster.docx?raw=true)
-* [Powerpoint]()
-* [Presentation]()
+* [Powerpoint](https://docs.google.com/presentation/d/1cEmyPCkIEoaxFSmNptyelJAsy16G5_C8YAbZ-XLyV8U/edit?usp=sharing)
+* [Presentation](https://drive.google.com/file/d/1iBPdokQmRiODfjvTC0dw4HGqXGRs8SN3/view?usp=sharing)
 
 # Tutorial
 
