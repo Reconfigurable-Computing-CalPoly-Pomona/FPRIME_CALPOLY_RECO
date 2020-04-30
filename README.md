@@ -4,7 +4,31 @@
 
 NASA has been working on develping a reconfigurable, multi-platform flight software with the intentions of spreading its usability. This is a senior project at **California State Polytechnic University, Pomona** advised by Dr Mohamed El-Hadedy. The purpose of this project is to help the people at JPL port F Prime softwaare onto different types of hardware while benchmarking its performance. The group has been split into two groups. Our group is working with the PYNQ-Z1 FPGA board while the other group is working on a Beagle Bone Black.
 
+### Team Members:
+
+1. Justin Barbour: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+2. Keith Chen: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+3. Jacky Li: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+4. Jimmy Pham: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+
+### Supervising Professor
+
+- **Mohamed El-Hadedy**: Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona
+
+### Collaborators
+
+1. **Wen-Mei Hwu**: Director of Center for Cognitive Computing Systems Research and Walter J. Sanders III-AMD Endowed Chair Professor in Elecrical and Computer Engineering at UIUC
+
+2. **Jinjun Xiong**: Director of Center for Cognitive Computing Systems Research and Adjunct Research Professor at UIUC
+
+
 In order to allow for future expansion of this project as well as popularize the use of F', we are going to show you every step on how to get F' working on a PYNQ-Z1 board.
+
+### Project Reporting
+
+* [Poster]()
+* [Powerpoint]()
+* [Presentation]()
 
 # Tutorial
 
