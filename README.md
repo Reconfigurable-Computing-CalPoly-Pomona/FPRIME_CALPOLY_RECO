@@ -110,8 +110,6 @@ Although the reference application and math components were successfully impleme
 
 [Xilinx](https://www.xilinx.com/)
 
-[IBM](https://www.ibm.com/)
-
 [IBM-Illinois Center for Cognitive Computing System Research](https://www.c3sr.com/)
 
 [PYNQ BSD 3 Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
