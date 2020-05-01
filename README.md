@@ -112,6 +112,8 @@ Although the reference application and math components were successfully impleme
 
 [IBM-Illinois Center for Cognitive Computing System Research](https://www.c3sr.com/)
 
+## Licenses 
+
 [PYNQ BSD 3 Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
 
 [Digilent IP MIT License](https://github.com/Xilinx/PYNQ/blob/master/THIRD_PARTY_LIC) 
