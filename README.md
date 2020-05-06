@@ -100,6 +100,10 @@ We created a program to monitor the performance of the PYNQ-Z1 board while runni
 ### Performance on the Beagle Bone Black:
 <p align="center"> <img width="284" alt="BenchmarkBBB" src="https://user-images.githubusercontent.com/57409161/80664357-68950b80-8a4b-11ea-9dec-d283a87ab7b4.png">
 
+### CPU Usage Comparison
+
+<p align="center"> <img width="780" alt="Screen Shot 2020-05-06 at 2 37 50 PM" src="https://user-images.githubusercontent.com/57409161/81230982-4e0ce600-8fa7-11ea-950f-e743f905b853.png">
+
 As seen above, the PYNQ has far better performance due to it having a Dual-Core 650 MHz Cortex-A9 ARM Processor
 as opposed to the Beagle Bone that only has a single-core AM3358 1Ghz ARM Cortex-A8 processor. Because of the dual-core processor, our CPU will use a max of 95% but averages at around 47%. The single-core on the BBB maxes out at 100% and averages around 82%.
 
