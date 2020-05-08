@@ -6,10 +6,10 @@ NASA has been working on develping a reconfigurable, multi-platform flight softw
 
 ### Team Members:
 
-1. Justin Barbour: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
-2. Keith Chen: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
-3. Jacky Li: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
-4. Jimmy Pham: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+1. **Justin Barbour**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+2. **Keith Chen**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+3. **Jacky Li**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+4. **Jimmy Pham**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Supervising Professor
 
