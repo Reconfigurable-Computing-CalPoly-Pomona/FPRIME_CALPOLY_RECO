@@ -112,15 +112,15 @@ Although the reference application and math components were successfully impleme
 
 ## Sponsors
 
-[Xilinx](https://www.xilinx.com/)
+- [Xilinx](https://www.xilinx.com/)
 
-[IBM-Illinois Center for Cognitive Computing System Research](https://www.c3sr.com/)
+- [IBM-Illinois Center for Cognitive Computing System Research](https://www.c3sr.com/)
 
 ## Licenses 
 
-[PYNQ BSD 3 Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
+- [PYNQ BSD 3 Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
 
-[Digilent IP MIT License](https://github.com/Xilinx/PYNQ/blob/master/THIRD_PARTY_LIC) 
+- [Digilent IP MIT License](https://github.com/Xilinx/PYNQ/blob/master/THIRD_PARTY_LIC) 
 
 Copyright (c) 2009-2019, California Institute of Technology ("Caltech"). U.S. Government sponsorship acknowledged.
 
